@@ -14,3 +14,8 @@
 *   **Behavior Driven Development (BDD):** Explore BDD frameworks like Cucumber for plain language test cases and improved collaboration.
 *   **Logging & Reporting:** Implement logging and reporting for detailed test execution information and summaries. If a test fails, we need to know exactly what happened and where things went awry.
 *   **CI/CD:** Use tools like GitHub Actions to automatically execute Selenium test suites upon merging or committing code to critical branches, enabling early issue detection and simplifying the identification of problematic code changes.
+
+## How To Run Tests
+```
+pytest tests/ --html=report.html
+```

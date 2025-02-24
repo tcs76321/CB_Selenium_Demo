@@ -1,0 +1,5 @@
+base_url: "https://www.commercebank.com"
+timeout: 10
+credentials:
+  username: "fake_user"
+  password: "not_a_password_123!"
